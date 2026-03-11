@@ -22,7 +22,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/YOUR_USERNAME/image-recognizer.git
+git clone https://github.com//image-recognizer.git
 cd image-recognizer
 
 # 安装依赖
@@ -125,21 +125,7 @@ pytest tests/
 python -m unittest tests/test_recognizer.py
 ```
 
-## 📖 文档
 
-- [API 文档](docs/API.md)
-- [使用指南](docs/USAGE.md)
-- [常见问题](docs/FAQ.md)
-
-## 🤝 贡献
-
-欢迎贡献！请：
-
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/amazing-feature`)
-3. 提交更改 (`git commit -m 'Add amazing feature'`)
-4. 推送到分支 (`git push origin feature/amazing-feature`)
-5. 提交 Pull Request
 
 ## 📄 许可证
 
@@ -152,18 +138,11 @@ python -m unittest tests/test_recognizer.py
 
 ## 📬 联系方式
 
-- **作者**: 谢凌霄
-- **邮箱**: [your-email@example.com]
-- **GitHub**: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- **作者**: yunxiao11xie
+- **邮箱**: [lingxiao.xie@qq.com]
 
-## 🗺️ 开发计划
 
-- [ ] 支持更多图片格式（WEBP、GIF）
-- [ ] 批量处理模式
-- [ ] 图形界面（GUI）
-- [ ] 本地模型支持（Ollama 集成）
-- [ ] 多模型对比
-- [ ] API 服务器模式
+
 
 ---
 

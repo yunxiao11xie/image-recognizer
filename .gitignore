@@ -1,56 +1,18 @@
-# Python
+# Python 通用.gitignore
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# 虚拟环境
-venv/
 env/
-ENV/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# 测试
-.pytest_cache/
-.coverage
-htmlcov/
-
-# 环境变量
+venv/
 .env
 .env.local
-
-# 敏感信息
-*.key
-*.pem
-config.json
-openclaw.json
-
-# 测试图片
-tests/images/*.jpg
-tests/images/*.png
-
-# OS
-.DS_Store
-Thumbs.db
+*.log
+*.egg-info/
+dist/
+build/
+# 项目专属忽略项
+config.json  # 避免提交含 API Key 的配置文件
+*.png
+*.jpg
+*.jpeg  # 避免提交测试用的图片文件
