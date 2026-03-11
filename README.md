@@ -6,7 +6,7 @@
 
 **Powerful image recognition tool based on the Qwen VL multimodal AI model**
 
-🇨🇳 [Chinese Documentation](README_zh.md)
+🇨🇳 [中文](README_zh.md)
 
 ## ✨ Features
 
